@@ -7,7 +7,7 @@ Print in place, 3D printable ratchet wrench!
 ### Currently Compiling With:
   - OpenScad
 
-### Specs
+### Specs:
   - 1/4" (0.635cm) Drive
   - 3.9" (10 cm) Handle
   - 24 tooth ratchet
@@ -16,7 +16,11 @@ Print in place, 3D printable ratchet wrench!
   - Inspired by the Nasa Space wrench
   - Was a good reason to play with tolerances in openscad
 
-## Testing V1
+### Suggested Print Settings: (tested V2)
+  - Wrench.stl 15-35% infill with 2 permitter+ (tested at 20%,2p)
+  - ratchetPaul.stl 30-100% infill with 3 permitter+ (tested at 35%,4p)
+
+## Testing V1:
 Using the testing method pictured:         
 ![testingV1.jpg](https://raw.githubusercontent.com/Earth13wells/Wrench/main/testingV1.jpg)
 (weights shown not accurate to final result)         
