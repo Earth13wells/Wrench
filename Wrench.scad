@@ -1,7 +1,5 @@
 $fn = 40;
-translate([-6.3/2,-6.3/2,10]){
-	cube([6.3,6.3,6.3]);
-}
+x=-1; //adjust the depth of paul
 difference(){
 	union(){
 		translate([0,0,5]){
@@ -49,7 +47,7 @@ difference(){
 							cylinder(r=5, h=1);
 						}
 					}
-					translate([-5,-3,-5])cube([5,5,10]);
+					translate([-5,-x-6,-5])cube([5,5,10]);
 				}
 			}
 		}
@@ -69,29 +67,12 @@ difference(){
 		}
 	}
 }
-
 difference(){
-	cylinder(r=12,h=10);
-	translate([0,0,5]){
-			rotate([0,0,20]){
-				rotate_extrude(angle=360){
-					translate([15,0,5])circle(r=5.5);
-				}
-			}
-		}
-	translate([0,0,5]){
-		for ( i = [1:15:360]){
-			rotate([0,0,i]){
-				translate([0,10,-5.5]){
-					rotate([0,0,15]){
-						color([1,0,0])cube([10,10,11]);
-					}
-				}
-			}
-		}
+	union(){
+		translate([3,-8+1-x,0])rotate([0,0,180+30])cube([20,10,10]);
+		translate([2.5,-10+1-x,5])rotate([0,90,0])sphere(r=3);
 	}
-}
-difference(){
-	translate([1,-16.9,0])rotate([0,0,30])cube([5,5,10]);
-	translate([5,-15.5,0])cube([10,10,10]);
+	translate([5,-50,0])cube([100,100,100]);
+	translate([-100,-50,0])cube([100,100,100]);
+
 }
