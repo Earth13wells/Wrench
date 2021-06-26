@@ -23,7 +23,7 @@ Using the testing method pictured:
 The wrench was found to support 1.749kg ± .060kg,         
 when the mass was suspended 105mm ± 1mm from the centre of the 1/4" drive.         
 Using the formula ma/l = τ the force required to break the wrench is:         
-```python
+```bash
 (1.749kg * 9.801N/kg)
    (105mm * 1mm/m)     = 1.80N/m (τ)
 ```
