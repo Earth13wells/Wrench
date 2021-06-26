@@ -16,7 +16,7 @@ Print in place, 3D printable ratchet wrench!
   - Inspired by the Nasa Space wrench
   - Was a good reason to play with tolerances in openscad
 
-## Testing
+## Testing V1
 Using the testing method pictured:         
 ![testingV1.jpg](https://raw.githubusercontent.com/Earth13wells/Wrench/main/testingV1.jpg)
 (weights shown not accurate to final result)         
