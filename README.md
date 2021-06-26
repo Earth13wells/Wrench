@@ -24,7 +24,6 @@ The wrench was found to support 1.749kg ± .060kg,
 when the mass was suspended 105mm ± 1mm from the centre of the 1/4" drive.         
 Using the formula ma/l = τ the force required to break the wrench is:         
 (1.749kg * 9.801N/kg)
----------------------
    (105mm * 1mm/m)     = 1.80N/m (τ)         
 ![faultV1.jpg](https://raw.githubusercontent.com/Earth13wells/Wrench/main/faultV1.jpg)
 the fault shown is exactly what was expected, yet not corrected in the design.         
